@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astralform - Music Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Astralform</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#music">Music</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">  
+            <h2>Welcome to My World of Music</h2>
+            <p>Music Producer | Composer</p>
+            <a href="#music" class="btn">Explore My Work</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <img src="mycover.png" alt="Avatar">
+        <h2>About Me</h2>
+        <p>Welcome to My Bio's!
+
+My journey started since 2018,producer with 7 years of experience to bring your house music vision to life? Look no further! I specialize in creating best-quality tracks across various house sub-genres, including Big Room House, Progressive House, Techno, and more.</p>
+    </section>
+
+    <section id="music">
+        <h2>My Music</h2>
+        <div class="music-grid">
+            <div class="music-card">
+                <img src="cover1.jpg" alt="Album Cover 1">
+                <h3>Astralform - T E C H N O</h3>
+                <audio controls>
+                    <source src="track1.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="music-card">
+                <img src="cover3.jpg" alt="Album Cover 3">
+                <h3>Astralform - Black Hole</h3>
+                <audio controls>
+                    <source src="track3.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="music-card">
+                <img src="cover2.jpg" alt="Album Cover 2">
+                <h3>Astralform - Eruption</h3>
+                <audio controls>
+                    <source src="track2.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Get in touch for collaborations or bookings!</p>
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Astralform. All Rights Reserved.</p>
+        <div class="socials">
+            <a href="https://www.instagram.com/astralformmusic/">Instagram</a>
+            <a href="https://youtube.com/@Astralform">YouTube</a>
+            <a href="https://open.spotify.com/artist/67mNKIO9ZkVuV1Jp099FmZ?si=idlzKrWkRzqjRajpa9kB-g">Spotify</a>
+        </div>
+    </footer>
+</body>
+</html>
